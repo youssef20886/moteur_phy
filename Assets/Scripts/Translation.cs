@@ -50,11 +50,9 @@ public class Translation : MonoBehaviour
             if ((i <= waypoints.transform.childCount - 1))
             {
                 b = waypoints.transform.GetChild(i).gameObject;
-
             }
             else
             {
-
                 b = waypoints.transform.GetChild(0).gameObject;
                 i = -1;
             }
